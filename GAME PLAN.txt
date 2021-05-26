@@ -1,0 +1,25 @@
+GAME PLAN FOR FLAPPY BIRD -- DONE
+
+1. Make Flappy Bird preset
+    > Make it a circle (for now)    // DONE
+    > Make it rotate, perhaps?      // DONE
+
+2. Implement upwards motion         
+    > In other words, make it FLAP  // DONE
+
+3. Make pipes coming out from the right
+    > Make an object                // DONE
+    > Make two separate pipes for each object       // DONE
+    > For collision detection, refer to basic collision for easier game mechanics (check "pong" for reference)
+    > *Destroy* objects out of the screen           // DONE
+        >> I am a bit uncomfortable with what I^ve done here to implement this, since I didn^t actually *destroy*
+            anything.. but just skipped over anything that was supposed to be destroyed. So far with 50 iterations
+            of my pipes system, there^s still no sign of crashing.
+        >> I don^t feel so good leaving it at that. The table^s forever growing and I^m not comfortable with the idea.
+        >> It^s going to take up big sizes of memory too soon. The thought of it is just blech..
+
+4. Make a point system
+    > Make use of pixel font        // DONE
+
+5. Make game states for the following:
+    > start, play, and over         // DONE
