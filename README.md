@@ -12,3 +12,5 @@ knowledge of trigonometric manipulations, animations, programming
 using Lua and Love2D.
 
 *version v1.2*
+
+This is a modification!
